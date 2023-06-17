@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width:22em;
+    background:none;
+    font-family:"Source Sans Pro";
+}
+
+*,*:after,*:before{
+    box-sizing: border-box;
+}
+
+.headerContainer{
+display:flex;
+height:4em;
+padding-right:20px;
+padding-left:20px;
+padding-bottom:10px;
+justify-content:space-between;
+align-items: center;
+border-bottom:lightgray solid;
+}
+
+
+.logo{
+    height:100%
+}
+
+#profileImageContainer{
+    position:relative;
+    overflow:hidden;
+    text-align:center;
+    height:3em;
+    width:3em;
+    margin-top:10px;
+    border:lightgray solid 1px;
+    border-radius: 50%;
+    background:hwb(194 67% 17% / 0.559);
+}
+
+#meAndDog{
+    display:inline;
+    object-fit:contain;
+    margin:0 auto;
+    height:170%;
+    width:auto;
+    padding:0px;
+}
+
+.mainContainer{
+    display:block;
+    margin:auto;
+    height:25em;
+    width:22em;
+    position:relative;
+    overflow:hidden;
+    border:none solid;
+}
+
+.artistDataContainer{
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+    height:3.5em;
+    border:none solid;
+}
+
+.avatar{
+    border-radius: 50%;
+    overflow: hidden;
+    width:10%;
+    height:65%;
+    margin-left:5px;
+}
+
+
+.artistNamePlaceContainer{
+    padding-top:0.5em;
+    padding-left:0.25em;
+    padding-bottom:0.5em;
+}
+
+.artistCityCountry{
+    font-size:80%;
+}
+
+.selfPortrait{
+    height:100%;
+    width:100%;
+    margin:0px;
+
+    
+    margin-left:3px;
+    padding:0px;
+    border:none 1px solid}
+
+.iconsContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:3em;
+    border:none 1px solid;
+}
+
+.icon{
+    height:55%;
+    margin-right:.6em;
+    margin-left:.5em;
+    margin-top:.5em;
+    color:blue;
+    background:white;
+ 
+}
+
+.lastContainer{
+    display:flex;
+    flex-direction: column;
+    height:3em;
+    font-weight:900;
+    margin:10px;
+    justify-content: space-between;
+}
+
+.textComment{
+    font-weight: 400;
+}
+
+
+
