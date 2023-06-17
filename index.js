@@ -91,7 +91,7 @@ function getData(postArray) {
                     </div>
                 </container>
             </container>
-            <img class="selfPortrait" src="${post}" alt="xxx" title="xxx">
+            <img class="selfPortrait" src="${post}" alt="${name}" title="${name}">
             </main>
 
             <footer class="footerContainer">
